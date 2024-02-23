@@ -8,6 +8,10 @@
     
 }
 body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
     height: 100vh;
     width: 100vw;
     background-color: #edf1fd;
@@ -113,4 +117,7 @@ footer{
 .media{
     display: flex;
     gap: 30px;
+   
 }
+
+
