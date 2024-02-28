@@ -1,30 +1,123 @@
 *{
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
     box-sizing: border-box;
-    justify-content: center;
+    margin-left: 25px;
+    margin-top: 10px;
+    overflow: hidden;
+    
 }
 body{
     background-image: url("stethoscope.png");
     background-repeat: no-repeat;
-    background-position: left;
-    background-color: #f0f4f5;
+    background-size: cover;
 }
+/* header part */
 header nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-header nav ul{
+nav ul{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
+    position: relative;
+    left: -60px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    color: #22bc7e;
     
 }
+
 main{
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 0;
+}
+.mainleftsection{
+    font-size: 15px;
+    width: 600px;
+    position: relative;
+    top: 50px;
+    
+}
+.heading{
+    font-size: 50px;
+    font-weight: 900;
+}
+.mainrightsection{
+    position: relative;
+    left: 45px;
+}
+p{
+    /* width: 550px; */
+    color: #959496;
+}
+
+.doctor{
+    height: 530px;
+    position: relative;
+    bottom: 30px;
+    left: 330px;
+    z-index: 0;
+
+    /* left: 25px; */
+}
+.circle{
+    bottom: 100px;
+}
+.yellowBox{
+    position: relative;
+    height: 220px;
+    z-index: -1;
+    left: 110px;
+    bottom: 75px;
+}
+.greenBox{
+    height: 400px;
+    position: relative;
+    bottom: 450px;
+    left: 350px;
+    z-index: -2;
+}
+button{
+    font-size: 15px;
+    font-weight: 900;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #22bc7e;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: white;
+    color: #22bc7e;
+}
+.topAngle{
+    position: relative;
+    top: 15px;
+    height: 15px;
+
+}
+.bottomangle{
+    position: relative;
+    /* top: 20px; */
+    height: 20px;
+    left: 150px;
+}
+.mouse{
+    position: relative;
+    top: 16px;
+    height: 20px;
+    left: 130px;
 }
