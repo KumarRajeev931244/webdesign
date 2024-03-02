@@ -1,0 +1,6 @@
+body{
+    background-image: url("mainBackground.png");
+    background-size: 1370px 670px;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+}
