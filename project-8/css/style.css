@@ -114,14 +114,176 @@ button:hover{
     size: 40px;
     
 }
-.Box2{
-    margin-top: 40px;
-}
+
 .smallbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     border: 1px solid black;
     height: 100px;
     width: 350px;
     border-radius: 20px;
     margin-left: 20px;
+    background-color: #fff;
+    font-size: 28px;
     
+}
+.small{
+    position: relative;
+    top: -50px;
+}
+.card1{
+    margin-top: 20px;
+}
+.card2{
+    margin-top: 40px;
+}
+/* middle middle top section */
+.img1{
+    height: 400px;
+    width: 400px;
+}
+.img2{
+    height: 300px;
+    width: 280px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+    left: -280px;
+    top: -50px;
+}
+.main-Middle-Top-Section-subpart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-Middle-Top-Section-subpart div{
+    position: relative;
+    left: -100px;
+}
+.main-Middle-Top-Section-subpart div h1{
+    font-size: 70px;
+    
+    font-weight: 700;
+}
+.main-Middle-Top-Section-subpart p{
+    font-size: 20px;
+}
+.main-Middle-Top-Section-subpart div button{
+    width: 200px;
+}
+.main-middle-bottom-subpat-section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.main-middle-bottom-subpat-section div h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.main-middle-bottom-subpat-section div button{
+    width: 200px;
+}
+
+.img3{
+        position: relative;
+        left: -200px;
+}
+.img4{
+    position: relative;
+    left: 120px;
+    width: 220px;
+}
+.main-middle-bottom-subpat-section div p{
+    font-size: 20px;
+}
+.mainBottomSection{
+    height: 400px;
+    width: 900px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #6563e9;
+    
+}
+.mainBottomSection div h1{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 60px;
+}
+.mainBottomSection p{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+input{
+    border-radius: 20px;
+    border: none;
+    padding: 10px 90px;
+    background-color: #5654d1;
+    
+
+}
+.mainBottomSection form button{
+    background-color: #fff;
+    color: #6563e9;
+    border: none;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+.mail{
+    position: relative;
+    
+    left: 50px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -150px;
+    margin-top: 70px;
+}
+
+footer .footerlink{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-top: -25px;
+}
+.footerLinkContent ul a{
+    color: black;
+    text-decoration: none;
+    
+}
+.footerLinkContent ul a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+.logo2{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    gap: 30px;
+    /* justify-content: center; */
+
+}
+.head2{
+    font-size: 30px;
+    font-weight: 900;
+}
+.footerLinkContent ul li{
+    margin: 20px;
 }
